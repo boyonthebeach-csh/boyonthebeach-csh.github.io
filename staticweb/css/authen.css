@@ -1,0 +1,145 @@
+
+.wrap {
+    padding-top: 10px;
+    background-color: #f0f0f0;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    padding: 58px 0;
+    background-color: var(--white-color);
+}
+
+.auth__board {
+   width: 450px;
+   border: 2px solid var(--primary-color);
+   border-radius: 8px;
+   background-color: var(--white-color);
+} 
+
+.auth__board-login,
+.auth__board-register {
+    padding: 16px 32px;
+}
+
+.auth__board-login-title,
+.auth__board-register-title {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.auth__board-login-title--select,
+.auth__board-register-title--select {
+    width: 44%;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+/* Login Board */
+.auth__board-login-title--login {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.auth__board-login-title--register {
+    color: var(--black-color);
+}
+
+.auth__board-login-title--register:hover {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+/* Register Board */
+.auth__board-register-title--login {
+    color: var(--black-color);
+}
+
+.auth__board-register-title--register {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.auth__board-register-title--login:hover {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.auth__board-pass--repeat {
+    margin-top: 16px;
+    font-size: 1.4rem;
+}
+
+
+/* .auth__board-login-title--select,
+.auth__board-register-title--select {
+    display: inline-flex;
+    justify-content: center;
+    width: 46%;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+} */
+
+/* .auth__board-login-title--login {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+} */
+
+/* .auth__board-login-title--register {
+    color: var(--black-color);
+    border-bottom: none;
+    transition: border-bottom ease 0.5s;
+} */
+
+/* .auth__board-title--register:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+} */
+
+.auth__board-content {
+    padding: 16px 0;
+}
+
+.auth__board-name {
+    font-size: 1.4rem;  
+}
+
+.auth__board-mobile--input,
+.auth__board-pass--input {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.auth__board-pass {
+    margin-top: 16px;
+    font-size: 1.4rem;
+}
+
+.auth__board-mobile--input:focus,
+.auth__board-pass--input:focus {
+    outline: 2px solid #80bdff;
+}
+
+.auth__board-forgot {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.auth__board-button--margin {
+    margin: 16px auto 0;
+}
+
+.auth__board-register {
+    
+}
