@@ -40,10 +40,14 @@
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-.nav__logo-title {
+.nav__logo-img {
+  height: 100%;
+}
+
+/* .nav__logo-title {
   margin-top: 8px;
   font-size: 4rem;
-}
+} */
 
 .nav__logo-title span:nth-child(1) {
   color:var(--primary-color);
@@ -53,11 +57,11 @@
   color: green;
 }
 
-.nav__logo-subtitle {
+/* .nav__logo-subtitle {
   text-align: center;
   font-size: 1.2rem;
   font-family: 'Roboto Slab', sans-serif;
-}
+} */
 
 /* Header Menu */
 
@@ -554,9 +558,10 @@
 
 .container__new-title,
 .container__bestseller-title,
-.container__goodbook-title {
+.container__goodbook-title,
+.container__stationery-title {
   position: relative;
-  padding: 16px 30px 16px 62px;
+  padding: 16px 30px 16px 64px;
   font-size: 1.6rem;
   border-bottom: 1px solid #ccc;
   text-transform: uppercase;
@@ -586,13 +591,25 @@
   left: 16px;
 }
 
+.container__stationery-title-icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  top: 4px;
+  left: 16px;
+  overflow: hidden;
+}
+
+
 .container__new-title-icon-img,
 .container__bestseller-title-icon-img,
-.container__goodbook-title-icon-img {
+.container__goodbook-title-icon-img,
+.container__stationery-title-icon-img {
   width: 100%;
 }
 
 /* Container Product */
+
 .container__product {
   position: relative;
   width: 19.2%;
@@ -713,32 +730,25 @@
   color: var(--white-color);
 }
 
-.container__new-more {
+.container__new-more,
+.container__bestseller-more,
+.container__stationery-more {
   margin: 32px auto 0;
 }
 
-/* .container__goodbook {
-  
-}
-
-.container__goodbook-title {
-
-}
-
-.container__goodbook-title-icon {
-
-}
-
-.container__goodbook-title-icon-img {
-
-} */
+/* Good Book */
 
 .container__goodbook-content {
-
+  position: relative;
+  padding: 32px;
+  display: flex;
+  background-color: #0a6f3c;
+  font-size: 1.4rem;
+  color: var(--white-color);
 }
 
 .container__goodbook-content-cover {
-
+  margin-right: 32px;
 }
 
 .container__goodbook-context {
@@ -746,47 +756,78 @@
 }
 
 .container__goodbook-context-title {
-
+  font-size: 2rem ;
+  font-weight: 500;
+  padding-bottom: 10px;
 }
 
 .container__goodbook-context-author {
-
+  width: fit-content;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--white-color);
 }
 
 .container__goodbook-context-description {
-
+  padding: 15px 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 300;
 }
 
 .container__goodbook-context-buy {
-
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 32px;
+  width: 894px;
+  padding-top: 15px;
+  border-top: 1px dashed var(--white-color);
 }
 
 .container__goodbook-context-sale {
-
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.6rem;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #f03737;
 }
 
 .container__goodbook-context-price--old {
-
+  margin: 0 10px;
+  font-size: 1.6rem;
+  text-decoration: line-through;
 }
 
 .container__goodbook-context-price--new {
-
+  margin: 0 10px;
+  font-size: 2.4rem;
 }
 
 .container__goodbook-context-button {
-
+  position: absolute;
+  right: 0;
+  padding: 12px 16px;
+  font-size: 2.4rem;
+  font-weight: 300;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: #f03737;
 }
 
-.container__author {
-
-}
+/* Stationery */
 
 .container__stationery {
-
+  margin-top: 16px;
+  padding-bottom: 32px;
+  background-color: var(--white-color);
 }
 
-.container__receive-news {
+/* Receive News */
 
+.container__email {
+  margin-top: 16px;
 }
 
 
