@@ -1,0 +1,141 @@
+.payment {
+    margin: 16px 0;
+    background-color: var(--white-color);
+}
+
+.payment input {
+    padding: 6px 0 6px 12px;
+    width: 446px;
+}
+
+.payment__address {
+    padding-bottom: 32px;
+}   
+
+.payment-item {
+    padding-left: 16px;
+}
+
+.payment-title {
+    display: inline-block;
+    margin-top: 20px;
+    width: 140px;
+    font-size: 1.4rem;
+}
+
+.payment__address-title {
+    padding: 16px 0;
+    margin: 0 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* .payment__address-name {
+
+}
+
+.payment__address-mobilenumber {
+
+}
+
+.payment__address-country {
+
+}
+
+.payment__address-city {
+
+}
+
+.payment__address-district {
+
+}
+
+.payment__address-specaddress {
+
+}
+
+.payment__transport {
+
+} */
+.payment__address-note {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 2px;
+}
+.payment__address-note-input {
+    width: 446px;
+    height: 60px;
+    padding-top: 6px;
+    padding-left: 16px;
+    margin-left: 16px;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Payment Method */
+
+.payment__method {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: var(--white-color);
+}
+
+.payment__method label {
+    font-size: 1.4rem;
+    padding-left: 4px;
+}
+
+.payment__method-title {
+    margin-bottom: 8px;
+}
+
+
+.payment__method .payment__method-option {
+    width: fit-content;
+    margin-top: 8px;
+}
+
+/* Confirm */
+
+.payment__confirm {
+    display: flex;
+    margin: 16px 0;
+    padding: 16px 0;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--white-color);
+}
+
+.payment__confirm-infor {
+   
+}
+
+.payment__confirm-infor-block {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    color: var(--black-color);
+}
+
+.payment__confirm-infor-text {
+    font-size: 2rem;
+}
+
+.payment__confirm-infor-number {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.payment__confirm-infor-button {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    width: 360px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+    height: 46px;
+    line-height: 4.6rem;
+    text-decoration: none;
+}

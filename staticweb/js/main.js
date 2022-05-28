@@ -3,6 +3,7 @@ import '../css/base.css'
 import '../css/authen.css'
 import '../css/product.css'
 import '../css/cart.css'
+import '../css/payment.css'
 
 // Slider
 
