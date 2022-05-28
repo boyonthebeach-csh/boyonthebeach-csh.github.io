@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <title>Book Store</title>
   </head>
   <body>
@@ -151,9 +152,9 @@
 
             </div>
             
-            <div href="" class="nav__cart">
+            <div class="nav__cart">
 
-              <a href="" class="nav__cart-link">
+              <a href="./cart.html" class="nav__cart-link">
 
                 <i class="nav__cart-icon fa-solid fa-cart-shopping"></i>
                 <p class="nav__cart-title">Giỏ hàng</p>
@@ -178,7 +179,7 @@
             </div>
             
             <div class="nav__user">
-              <a href="" class="nav__user-link">
+              <a href="./auth-login.html" class="nav__user-link">
                 <i class="nav__user-icon far fa-user"></i>
                 <p class="nav__user-title">Tài khoản</p>
               </a>
@@ -208,12 +209,50 @@
         
         <div class="grid">
 
-          <div class="container__banner">
-            <div class="container__banner">
-              <img src="./img/banner.jpg" alt="" class="container__banner-img">
+          <div class="container__slider">
+
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/banner.jpg" style="height: 428px;" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/banner1.jpg" style="height: 428px;" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/banner-3.jpg" style="height: 428px;" class="d-block w-100" alt="">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> -->
+          
+            <div class="slideshow">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="slideshow__image">
+                <img src="./img/banner.jpg" class="slideshow__image-img">
+              </div>
+            
+              <div class="slideshow__image">
+                <img src="./img/banner1.jpg" class="slideshow__image-img">
+              </div>
+            
+              <div class="slideshow__image">
+                <img src="./img/banner-3.jpg" class="slideshow__image-img">
+              </div>
+            
             </div>
+            <br>
+            
           </div>
-  
+
           <div class="container__new">
             <h3 class="container__new-title">
               <div class="container__new-title-icon">
@@ -225,7 +264,7 @@
             <div class="container__new-products">
               <div class="grid__row">
 
-                <a href = "#" class="grid__column-2-4 container__product">
+                <a href = "./product.html" class="grid__column-2-4 container__product">
                   <div class="container__product-wrap">
                     <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                     
@@ -279,7 +318,7 @@
                     </div>
                   </div>
                 </a>
-                <a href = "#" class="grid__column-2-4 container__product">
+                <a href = "./product.html" class="grid__column-2-4 container__product">
                   <div class="container__product-wrap">
                     <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                     
@@ -333,7 +372,7 @@
                     </div>
                   </div>
                 </a>
-                <a href = "#" class="grid__column-2-4 container__product">
+                <a href = "./product.html" class="grid__column-2-4 container__product">
                   <div class="container__product-wrap">
                     <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                     
@@ -387,7 +426,7 @@
                     </div>
                   </div>
                 </a>
-                <a href = "#" class="grid__column-2-4 container__product">
+                <a href = "./product.html" class="grid__column-2-4 container__product">
                   <div class="container__product-wrap">
                     <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                     
@@ -441,7 +480,7 @@
                     </div>
                   </div>
                 </a>
-                <a href = "#" class="grid__column-2-4 container__product">
+                <a href = "./product.html" class="grid__column-2-4 container__product">
                   <div class="container__product-wrap">
                     <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                     
@@ -515,7 +554,7 @@
               <div class="container__bestseller-products">
                 <div class="grid">
                   <div class="grid__row">
-                    <a href = "#" class="grid__column-2-4 container__product">
+                    <a href = "./product.html" class="grid__column-2-4 container__product">
                       <div class="container__product-wrap">
                         <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                         
@@ -569,7 +608,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href = "#" class="grid__column-2-4 container__product">
+                    <a href = "./product.html" class="grid__column-2-4 container__product">
                       <div class="container__product-wrap">
                         <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                         
@@ -623,7 +662,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href = "#" class="grid__column-2-4 container__product">
+                    <a href = "./product.html" class="grid__column-2-4 container__product">
                       <div class="container__product-wrap">
                         <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                         
@@ -677,7 +716,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href = "#" class="grid__column-2-4 container__product">
+                    <a href = "./product.html" class="grid__column-2-4 container__product">
                       <div class="container__product-wrap">
                         <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                         
@@ -731,7 +770,7 @@
                         </div>
                       </div>
                     </a>
-                    <a href = "#" class="grid__column-2-4 container__product">
+                    <a href = "./product.html" class="grid__column-2-4 container__product">
                       <div class="container__product-wrap">
                         <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                         
@@ -834,7 +873,7 @@
             <div class="container__stationery-products">
               <div class="grid">
                 <div class="grid__row">
-                  <a href = "#" class="grid__column-2-4 container__product">
+                  <a href = "./product.html" class="grid__column-2-4 container__product">
                     <div class="container__product-wrap">
                       <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                       
@@ -888,7 +927,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href = "#" class="grid__column-2-4 container__product">
+                  <a href = "./product.html" class="grid__column-2-4 container__product">
                     <div class="container__product-wrap">
                       <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                       
@@ -942,7 +981,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href = "#" class="grid__column-2-4 container__product">
+                  <a href = "./product.html" class="grid__column-2-4 container__product">
                     <div class="container__product-wrap">
                       <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                       
@@ -996,7 +1035,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href = "#" class="grid__column-2-4 container__product">
+                  <a href = "./product.html" class="grid__column-2-4 container__product">
                     <div class="container__product-wrap">
                       <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                       
@@ -1050,7 +1089,7 @@
                       </div>
                     </div>
                   </a>
-                  <a href = "#" class="grid__column-2-4 container__product">
+                  <a href = "./product.html" class="grid__column-2-4 container__product">
                     <div class="container__product-wrap">
                       <div class="container__product-img" style="background-image: url(https://cf.shopee.vn/file/f3a3dad438654d287f94b111e1cf3121_tn);"></div>
                       
@@ -1129,7 +1168,193 @@
       </div>
 
       <footer class="footer">
+        <div class="grid">
 
+          <div class="grid__row">
+
+            <div class="grid__column-3">
+              <div class="footer__brand">
+                <img src="./img/store-logo.png" alt="logo" class="footer__brand-logo">
+                <p class="footer__brand-desc">
+                  Bookstore.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống BookStore trên toàn quốc.
+                </p>
+                <div class="footer__brand-connect">
+                  <h3 class="footer__brand-connect-title column-title">LIÊN LẠC</h3>
+                  <ul class="footer__brand-connect-list">
+                    <li class="footer__brand-connect-list-item">
+                      <i class="footer__brand-connect-list-item-icon fa-solid fa-location-dot"></i>
+                      60-62 Lê Lợi, Q.1, TP. HCM
+                    </li>
+                  
+                    <li class="footer__brand-connect-list-item">
+                      <i class="footer__brand-connect-list-item-icon fa-solid fa-envelope"></i>
+                      cskh@bookstore.com.vn
+                    </li>
+                  
+                    <li class="footer__brand-connect-list-item">
+                      <i class="footer__brand-connect-list-item-icon fa-solid fa-phone"></i>
+                      1900636467
+                    </li>
+                  
+                  </ul>
+                </div>
+                <img src="./img/logo-bo-cong-thuong-da-thong-bao1.png" alt="bo-cong-thuong" class="footer__brand-auth">
+                <ul class="footer__brand-social">
+                  <li class="footer__brand-social-item">
+                    <i class="footer__brand-social-item-icon fa-brands fa-facebook"></i>
+                  </li>
+                
+                  <li class="footer__brand-social-item">
+                    <i class="footer__brand-social-item-icon fa-brands fa-instagram"></i>
+                  </li>
+                
+                  <li class="footer__brand-social-item">
+                    <i class="footer__brand-social-item-icon fa-brands fa-youtube"></i>
+                  </li>
+                
+                  <li class="footer__brand-social-item">
+                    <i class="footer__brand-social-item-icon fa-brands fa-twitter-square"></i>
+                  </li>
+                
+                  <li class="footer__brand-social-item">
+                    <i class="footer__brand-social-item-icon fa-brands fa-tumblr-square"></i>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+
+            <div class="grid__column-3">
+              <div class="footer__service">
+                <h3 class="footer__service-title column-title">DỊCH VỤ</h3>
+                <ul class="footer__service-list column-list">
+                  <li class="footer__service-list-item column-item">
+                    <a href="" class="footer__service-list-item-link column-link">
+                      Điều khoản sử dụng
+                    </a>
+                  </li>
+                  <li class="footer__service-list-item column-item">
+                    <a href="" class="footer__service-list-item-link column-link">
+                      Chính sách bảo mật
+                    </a>
+                  </li>
+                  <li class="footer__service-list-item column-item">
+                    <a href="" class="footer__service-list-item-link column-link">
+                      Giới thiệu Fahasa
+                    </a>
+                  </li>
+                  <li class="footer__service-list-item column-item">
+                    <a href="" class="footer__service-list-item-link column-link">
+                      Hệ thống trung tâm - nhà sách
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="grid__column-3">
+              <div class="footer__support">
+                <h3 class="footer__support-title column-title">HỖ TRỢ</h3>
+                <ul class="footer__support-list column-list">
+                  <li class="footer__support-list-item column-item">
+                    <a href="" class="footer__support-list-item-link column-link">
+                      Chính sách đổi - trả - hoàn tiền
+                    </a>
+                  </li>
+                  <li class="footer__support-list-item column-item">
+                    <a href="" class="footer__support-list-item-link column-link">
+                      Chính sách khách sỉ
+                    </a>
+                  </li>
+                  <li class="footer__support-list-item column-item">
+                    <a href="" class="footer__support-list-item-link column-link">
+                      Phương thức vận chuyển
+                    </a>
+                  </li>
+                  <li class="footer__support-list-item column-item">
+                    <a href="" class="footer__support-list-item-link column-link">
+                      Phương thức thanh toán và xuất HĐ
+                    </a>
+                  </li>
+                </ul>                  
+              </div>
+            </div>
+
+            <div class="grid__column-3">
+              <div class="footer__account">
+                <h3 class="footer__account-title column-title">TÀI KHOẢN CỦA TÔI</h3>
+                <ul class="footer__account-list column-list">
+                  <li class="footer__account-list-item column-item">
+                    <a href="" class="footer__acount-list-item-link column-link">
+                      Đăng nhập/Tạo mới tài khoản
+                    </a>
+                  </li>
+                  <li class="footer__account-list-item column-item">
+                    <a href="" class="footer__acount-list-item-link column-link">
+                      Thay đổi địa chỉ khách hàng
+                    </a>
+                  </li>
+                  <li class="footer__account-list-item column-item">
+                    <a href="" class="footer__acount-list-item-link column-link">
+                      Chi tiết tài khoản
+                    </a>
+                  </li>
+                  <li class="footer__account-list-item column-item">
+                    <a href="" class="footer__acount-list-item-link column-link">
+                      Lịch sử mua hàng
+                    </a>
+                  </li>
+                </ul>                  
+              </div>
+            </div>
+
+            
+          </div>
+        
+          <div class="footer__collaborate">
+            
+            <div class="footer__collaborate--one">
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/vnpost1.png" style="width: 100px; height: 48px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/ahamove_logo3.png" style="width: 160px; height: 42px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/icon_giao_hang_nhanh1.png" style="width: 150px; height: 84px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/icon_snappy1.png" alt="logo" style="width: 150px; height: 48px;" class="footer__collaborate-logo-img">
+              </div>
+            </div>
+
+            <div class="footer__collaborate--two">
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/vnpay_logo.png" style="width: 120px; height: 42px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/ZaloPay-logo-130x83.png" style="width: 120px; height: 36px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/momopay.png" alt="logo" style="width: 50px; height: 50px;" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/shopeepay_logo1.png" style="width: 96px; height: 44px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+  
+              <div class="footer__collaborate-logo">
+                <img src="./img/footer/logo_moca_120.jpg" style="width: 64px; height: 64px;" alt="logo" class="footer__collaborate-logo-img">
+              </div>
+            </div>
+
+          </div>
+        </div>
       </footer>
     </div>
 

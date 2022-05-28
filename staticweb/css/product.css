@@ -1,0 +1,211 @@
+#app {
+    background-color: #f0f0f0;
+}
+
+/* Product */
+
+.products {
+    display: flex;
+    position: relative;
+    margin-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    background-color: var(--white-color);
+}
+
+.products__path {
+    position: absolute;
+    top: -22px;
+}
+
+.products__path-angle {
+    position: absolute;
+    top: 2px;
+}
+
+.products__path-category {
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--black-color);
+}
+
+.products__cover {
+    width: 484px;
+}
+
+.products__cover-image {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+}
+
+.product__cover-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products__cover .products__cover-button-addtocart,
+.products__cover .products__cover-button-buynow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    text-decoration: none;
+}
+
+/* .products__cover-buynow {
+    display: inline-block;
+} */
+
+.products__infor {
+    flex: 1;
+    padding: 32px 0 32px 32px;
+}
+
+.products__infor-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.products__infor-subinfor {
+    position: relative;
+    display: flex;
+    padding-top: 16px;
+    font-size: 1.3rem;
+}
+
+.products__infor-subinfor-supplier {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.products__infor-subinfor-publisher {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.products__infor-subinfor--right {
+    position: absolute;
+    right: 0;
+}
+
+.products__infor-subinfor-author {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.products__infor-subinfor-style {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.products__infor-rating {
+    display: block;
+    color: #F6A500;
+    font-size: 1.3rem;
+    padding-bottom: 16px;
+}
+
+.products__infor-price {
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.products__infor-price-new {
+    margin-right: 12px;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.products__infor-price-old {
+    margin-right: 12px;
+    font-size: 1.6rem;
+    text-decoration: line-through;
+}
+
+.products__infor-price-sale {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 4px 4px;
+    border-radius: 4px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.products__infor-policy {
+    padding-top: 8px;
+    font-size: 1.3rem;
+}
+
+.products__infor-policy-title {
+    margin-right: 36px;
+}
+
+.products__infor-policy-context {
+    margin-right: 16px;
+}
+
+.products__infor-policy-more {
+    font-weight: 500;
+    color: #2489F4;
+    text-decoration: none;
+}
+
+.products__infor-quanity {
+    padding-top: 24px;
+}
+
+.products__infor-quanity-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.products__infor-quanity-button {
+
+}
+
+/* Specific Information*/
+
+.specific {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: var(--white-color);
+}
+
+.specific-title {
+    font-size: 1.9rem;
+    padding-bottom: 20px;
+}
+
+.specific-infor {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.specific-name {    
+    width: 24%;
+    color: #777;
+}
+
+.specific-name span {    
+    display: block;
+    line-height: 30px;
+}
+
+.specific-value {
+    color: #333;
+    padding-left: 30px;
+}
+
+.specific-value span {
+    display: block;
+    line-height: 30px;
+}
+
+.specific-value span:nth-child(2) {    
+    color: #2489F4;
+}

@@ -1,0 +1,140 @@
+.cart {
+    display: flex;
+    margin: 16px 0 16px;
+    padding-bottom: 24px;
+    background-color: var(--white-color);
+}
+
+.cart__infor {
+    width: 800px;
+}
+
+.cart__heading {
+    display: flex;
+    font-size: 1.6rem;
+    padding: 24px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart__heading-name {
+    text-align: center;
+    width: 500px;
+    font-weight: 500;
+}
+
+.cart__heading-quanity {
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cart__heading-total {
+    width: 120px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cart__heading-delete {
+    width: 60px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cart__products {
+    padding: 32px 0 32px 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart__products-item {
+    display: flex;
+}
+
+.cart__products-item-img {
+    width: 120px;
+    height: 120px;
+}
+
+/* .cart__products-item-infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 348px;
+    text-align: center;
+} */
+
+.cart__products-item-name {
+    width: 348px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.cart__products-item-price {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cart__products-item-quanity {
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.cart__products-item-price {
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.cart__products-item-delete {
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 60px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.cart__products-item-delete-icon {
+    color: var(--black-color);
+}
+
+.cart__pay {
+    width: 400px;
+    padding: 24px 32px 0;
+}
+
+.cart__pay-caculate {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart__pay-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 24px 0;
+    font-weight: 600;
+}
+
+.cart__pay-total-number {
+    color: var(--primary-color);
+}
+
+.cart__pay-button {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+    height: 46px;
+    line-height: 4.6rem;
+}
