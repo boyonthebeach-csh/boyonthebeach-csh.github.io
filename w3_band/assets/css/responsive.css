@@ -1,0 +1,174 @@
+/* Media Queries - Responsive */
+
+/* Tablet & Mobile */
+
+@media (max-width: 63.9375em) {
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    body {
+        /* max-width: 95%; */
+    }
+    .content {
+        width: 100%;
+    }
+    #header {
+        overflow: visible;
+    }
+    #slider {
+        margin-top: 46px;
+    }
+    #content .text {
+        width: 100%;
+    }
+    #content .member {
+        width: 100%;
+    }
+    #tour_date .time {
+        width: 100%;
+    }
+    #tour_date .card {
+        width: 100%;
+    }
+    #tour_date .card .place{
+        width: 32%;
+    }
+    #tour_date .image {
+        width: 100%;
+    }
+    #contact {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #header .menu-btn {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 46px;   
+        width: 46px;
+        color: #fff;
+        text-align: center;
+    }
+    #header .menu-btn:hover {
+        cursor: pointer;
+        background-color: #ccc;
+        color: #000;
+    }
+
+    /* .menu-btn-click:checked ~ #header {
+        overflow: visible;
+    }
+     */
+    #nav {
+        background-color: #000;
+    }
+    #header #nav .home-btn {
+        width: fit-content;
+    }
+    #nav li {
+        width: 100%;
+        display: block;
+    }
+    
+    #nav .full-hover:hover{
+        color: #000;
+        background-color: #ccc;
+        cursor: pointer;
+    }
+    #nav .fa-search {
+        display: none;
+    }
+    #nav .subnav, .subnav li {
+        width: 100%;
+    }
+    #nav .subnav li {
+        width: 100%;
+        padding: 5px 32px;
+        background-color: #000;
+        color: #fff;
+    }
+    #nav .subnav li:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+
+    #nav .subnav {
+        position: initial;
+        
+    }
+
+    #slider {
+        /* margin-top: 46px; */
+    }
+    #content .text {
+        width: 95%;
+    }
+    #content .member {
+        width: 100%;
+        flex-direction: column;
+    }
+    .member_avatar {
+        margin: 16px auto;
+    }
+    #tour_date
+    /* #tour_date .time p { */ {
+        margin: auto;
+        width: 100%;
+    }
+
+    #tour_date .time {
+        width: 100%;
+    }
+    #tour_date .card {
+        width: 100%;
+        flex-direction: column; 
+    }
+
+    #tour_date .card .place {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    #tour_date .image {
+        width: 100%;
+        height: 184px;
+    }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    #contact {
+        width: 100%;
+    }
+
+    #contact .infor { 
+        display: block;
+    }
+
+    #contact .text {
+        width: 100%;
+    }
+
+    #contact .form   {
+        width: 100%;
+    }
+
+    #contact .form .input_name, .input_email {
+        display: block;
+        width: 100%;
+    }
+
+    #contact .form .input_name {
+        margin-bottom: 8px;
+    }
+}
